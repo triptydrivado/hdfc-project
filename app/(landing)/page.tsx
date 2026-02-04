@@ -39,7 +39,7 @@ function page() {
   ];
   return (
     <section
-      className="bg-section-why-choose-us py-10 md:py-[3.75rem]"
+      className="py-10 md:py-[3.75rem]"
       //   aria-labelledby={heading.toLowerCase().replaceAll(" ", "-")}
       //   aria-describedby={`${heading.toLowerCase().replaceAll(" ", "-")}-description`}
     >
