@@ -1,5 +1,5 @@
-import Faq from "./components/Faq";
-import WhyTravelSmarter from "./components/WhyTravelSmarter";
+import Faq from "./components/faq";
+import WhyTravelSmarter from "./components/why-travel-smarter";
 import OurFleets from "./components/our-fleets/index";
 
 export default function page() {
