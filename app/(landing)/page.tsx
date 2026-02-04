@@ -6,8 +6,8 @@ export default function page() {
   return (
     <div>
       <WhyTravelSmarter />
-      <Faq />
       <OurFleets />
+      <Faq />
     </div>
   );
 }
