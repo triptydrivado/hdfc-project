@@ -38,8 +38,8 @@ export default function Faq() {
   };
 
   return (
-    <section className="py-10 md:py-[3.75rem]">
-      <Container className="3xl:px-[26rem] px-5 md:px-16 lg:px-26 xl:px-56 2xl:px-80">
+    <section className="py-10 md:py-15">
+      <Container className="3xl:px-104 px-5 md:px-16 lg:px-26 xl:px-56 2xl:px-80">
         <header className="space-y-3 text-center">
           <h2
             // id={heading.toLowerCase().replaceAll(" ", "-")}
@@ -62,7 +62,7 @@ export default function Faq() {
             return (
               <div
                 key={item.id}
-                className="rounded-sm bg-white px-[10px] shadow-[0px_3px_25px_0px_rgba(0,0,0,0.05)] md:rounded-lg md:px-4 md:shadow-[0px_1.9155510663986206px_15.962925910949707px_0px_rgba(0,0,0,0.05)] xl:rounded-[10px] 2xl:rounded-xl 2xl:px-6"
+                className="rounded-sm bg-white px-2.5 shadow-[0px_3px_25px_0px_rgba(0,0,0,0.05)] md:rounded-lg md:px-4 md:shadow-[0px_1.9155510663986206px_15.962925910949707px_0px_rgba(0,0,0,0.05)] xl:rounded-[10px] 2xl:rounded-xl 2xl:px-6"
               >
                 {/* Question */}
                 <button

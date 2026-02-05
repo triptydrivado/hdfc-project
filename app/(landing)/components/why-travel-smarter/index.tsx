@@ -39,11 +39,11 @@ export default function WhyTravelSmarter() {
   ];
   return (
     <section
-      className="py-10 md:py-[3.75rem]"
+      className="py-10 md:py-15"
       //   aria-labelledby={heading.toLowerCase().replaceAll(" ", "-")}
       //   aria-describedby={`${heading.toLowerCase().replaceAll(" ", "-")}-description`}
     >
-      <Container className="space-y-6 md:space-y-10 2xl:space-y-[3.75rem]">
+      <Container className="space-y-6 md:space-y-10 2xl:space-y-15">
         <header className="space-y-3 text-center">
           <h2
             // id={heading.toLowerCase().replaceAll(" ", "-")}
