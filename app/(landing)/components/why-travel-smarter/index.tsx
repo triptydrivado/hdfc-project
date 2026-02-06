@@ -39,21 +39,21 @@ export default function WhyTravelSmarter() {
   ];
   return (
     <section
-      className="py-10 md:py-[3.75rem]"
+      className="py-10 md:py-15"
       //   aria-labelledby={heading.toLowerCase().replaceAll(" ", "-")}
       //   aria-describedby={`${heading.toLowerCase().replaceAll(" ", "-")}-description`}
     >
-      <Container className="space-y-6 md:space-y-10 2xl:space-y-[3.75rem]">
+      <Container className="space-y-6 md:space-y-10 2xl:space-y-15">
         <header className="space-y-3 text-center">
           <h2
             // id={heading.toLowerCase().replaceAll(" ", "-")}
-            className="text-choose-us-text text-2xl font-bold md:text-[2rem] xl:text-[2.5rem]"
+            className="text-2xl font-bold text-[#161823] md:text-[2rem] xl:text-[2.5rem]"
           >
             Why Travel Smarter with Drivado
           </h2>
           <p
             // id={`${heading.toLowerCase().replaceAll(" ", "-")}-description`}
-            className="text-choose-us-subtext text-base md:text-[1.25rem]"
+            className="text-base md:text-lg text-[#3F4254] font-normal"
           >
             Travel with our bespoke chauffeur driven transportation solutions,
             tailored to meet your demands.
@@ -75,13 +75,15 @@ export default function WhyTravelSmarter() {
                   />
                 </div>
 
-                <div className="bg-choose-us-item-background space-y-3 rounded-lg p-2">
-                  <h3 className="text-choose-us-text text-[1.25rem] font-semibold xl:text-2xl">
-                    {title}
-                  </h3>
-                  <p className="text-choose-us-item-description-text text-base">
-                    {description}
-                  </p>
+                <div>
+                  <div className="space-y-3 bg-[#F7F7F8] rounded-lg p-2 h-full">
+                    <h3 className="text-choose-us-text text-[1.25rem] font-semibold xl:text-2xl text-[#161823]">
+                      {title}
+                    </h3>
+                    <p className="text-base text-[#3F4254] font-normal">
+                      {description}
+                    </p>
+                  </div>
                 </div>
               </li>
             ))}
